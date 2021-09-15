@@ -28,4 +28,4 @@ LABS=" lab1 lab2a lab2b lab2c lab3a lab3b lab4a lab4b "
 .PHONY: check-%
 check-%:
 	@echo "Checking that your submission builds correctly..."
-	@./.check-build https://github.com/Freeuni-Lekva/distributed-systems-labs $(patsubst check-%,%,$@)
+	@./.check-build https://github.com/freeuni-distributed-systems/2021-labs.git $(patsubst check-%,%,$@)
